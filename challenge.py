@@ -60,5 +60,3 @@ def valorPorExtenso(valor: str) -> str:
         else:
             extenso = countCentenas(centenas[item]) + casas[item][1] + ', ' + extenso
     return extenso[:-2] + ' e ' + countCents(valor)
-
-print(valorPorExtenso("245123.43"))
